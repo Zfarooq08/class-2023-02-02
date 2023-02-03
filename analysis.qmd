@@ -17,8 +17,6 @@ library(tidyverse)
 x <- read_rds("data/ec.rds")
 ```
 
-
-
 ```{r}
 #| label: plotting
 x |> 
@@ -39,5 +37,3 @@ x |>
        subtitle = "Bigger states have counties with lower average economic\n connectivenss",
        x = "Total Population")
 ```
-
-
